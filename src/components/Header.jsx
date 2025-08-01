@@ -1,13 +1,11 @@
+import logoImg from '../assets/logo';
+
 export default function Header() {
   return (
     <header className="bg-azul-marino  flex items-center h-fit justify-around ">
       <div className="container mx-auto flex justify-between items-center">
         <a href="/">
-          <img
-            src="./src/assets/logo.jpeg"
-            alt="Logo"
-            className="h-24 w-24 mx-auto"
-          />
+          <img src={logoImg} alt="Logo" className="h-24 w-24 mx-auto" />
         </a>
 
         <nav className="flex justify-center ">
