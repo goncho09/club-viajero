@@ -1,6 +1,6 @@
 import floripaImg from '../assets/floripa.jpg';
-import miamiImg from '../assets/miami.jpg';
-import cancunImg from '../assets/cancun.jpg';
+import miamiImg from '../assets/miamii.webp';
+import romaImg from '../assets/roma.jpg';
 import Destacado from './Destacado';
 
 export default function Destacados() {
@@ -9,7 +9,7 @@ export default function Destacados() {
       <h2 className="text-3xl text-bold">Lugares destacados</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 justify-items-center text-center">
         <Destacado title="Florianópolis" image={floripaImg} />
-        <Destacado title="Cancún" image={cancunImg} />
+        <Destacado title="Roma" image={romaImg} />
         <Destacado title="Miami" image={miamiImg} />
       </div>
     </section>

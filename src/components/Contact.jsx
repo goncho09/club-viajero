@@ -24,7 +24,13 @@ export default function Contact() {
               <span>
                 <FaPhoneAlt className="text-xl  mr-2" />
               </span>
-              <a href="https://wa.me/59893476972">+598 93 476 972</a>
+              <a
+                href="https://api.whatsapp.com/send?phone=59893476972&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Club%20Viajero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +598 93 476 972
+              </a>
             </p>
           </div>
         </div>
@@ -40,7 +46,13 @@ export default function Contact() {
               <span>
                 <FaPhoneAlt className="text-xl mr-2" />
               </span>
-              <a href="https://wa.me/59893860150">+598 93 860 150</a>
+              <a
+                href="https://api.whatsapp.com/send?phone=59893860150&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Club%20Viajero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +598 93 860 150
+              </a>
             </p>
           </div>
         </div>
